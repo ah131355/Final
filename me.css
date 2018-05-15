@@ -33,3 +33,27 @@ article {
     padding: 1em;
     overflow: hidden;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
+
+ul {
+    list-style-position: inside;
+}
+.right-hand{
+    position: relative;
+    right: -150px;
+    width: 400px;
+    height: 120px;
+
+
+}
