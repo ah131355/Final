@@ -75,3 +75,10 @@ a {
   height: 20%;
   width: 300px;
 }
+.box{
+    float:left;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
+}
